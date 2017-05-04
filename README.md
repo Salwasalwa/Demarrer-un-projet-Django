@@ -29,7 +29,7 @@ Déplacez vous dedans:
 Création du dépôt Git:
 - ```git init```
 
-Création et édition de .gitignore:
+Création et édition de *.gitignore*:
 - ```sudo nano .gitignore```
 
 Et ajouter au minimum:
@@ -56,7 +56,7 @@ Actualisation de la BDD:
 Création d'application(s):
 - ```python manage.py startapp <NomDeVotreApp>```
 
-Ajout de votre app dans le fichier settings.py, et dans le même temps, changement du fuseau horaire et de la langue:
+Ajout de votre app dans le fichier *settings.py*, et dans le même temps, changement du fuseau horaire et de la langue:
 ```
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -73,10 +73,10 @@ INSTALLED_APPS = [
 
 - ```TIME_ZONE = 'CET'```
 
-Dans la partie TEMPLATES, copier/coller ceci entre les crochets de DIRS:
+Dans la partie *TEMPLATES*, copier/coller ceci entre les crochets de *DIRS*:
 - ```os.path.join(BASE_DIR, '<NomDeVotreProjet>', 'templates')```
 
-Création d'un dossier templates dans ```<NomDeVotreApp>```, static/css/sass, static/js et templates dans ```<NomDeVotreProjet>``` et du fichier urls.py dans ```<NomDeVotreApp>```:
+Création d'un dossier *templates* dans ```<NomDeVotreApp>```, *static/css*, *static/js* et *templates* dans ```<NomDeVotreProjet>``` et du fichier *urls.py* dans ```<NomDeVotreApp>```:
 - ```mkdir -p <NomDeVotreApp>/templates static/css/sass static/img static/js <NomDeVotreProjet>/templates && touch <NomDeVotreApp>/urls.py```
 
 ---
