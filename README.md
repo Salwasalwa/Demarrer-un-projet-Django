@@ -34,9 +34,6 @@ Création et édition de .gitignore:
 
 Et ajouter au minimum:
 - ```*.pyc```
-- ```media/```
-- ```*.db```
-- ```*.sqlite3```
 
 ---
 **Pour MySQL: Ouvrir le fichier 'settings.py', et modifier cette partie:**
