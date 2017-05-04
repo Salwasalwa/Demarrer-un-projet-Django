@@ -76,11 +76,8 @@ INSTALLED_APPS = [
 Dans la partie TEMPLATES, copier/coller ceci entre les crochets de DIRS:
 - ```os.path.join(BASE_DIR, '<NomDeVotreProjet>', 'templates')```
 
-Création d'un dossier templates dans ```<NomDeVotreApp>```, static/css/sass, static/js et templates dans ```<NomDeVotreProjet>```:
-- ```mkdir -p <NomDeVotreApp>/templates static/css/sass static/img static/js <NomDeVotreProjet>/templates```
-
-Création du fichier urls.py dans ```<NomDeVotreApp>```
-- ```touch <NomDeVotreApp>/urls.py```
+Création d'un dossier templates dans ```<NomDeVotreApp>```, static/css/sass, static/js et templates dans ```<NomDeVotreProjet>``` et du fichier urls.py dans ```<NomDeVotreApp>```:
+- ```mkdir -p <NomDeVotreApp>/templates static/css/sass static/img static/js <NomDeVotreProjet>/templates && touch <NomDeVotreApp>/urls.py```
 
 ---
 Si vous voulez utiliser Bower:
